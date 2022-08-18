@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Barberia-Master</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Oswald:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body class="width height">
+    <div class="contenedor-loader">
+      <img src="./assets/Barberia.jpg" alt="" class="loader">
+    </div>
+    <div class="container">
+      <header class="showcase" id="inicio">
+        <img src="./assets/Barberia.png" alt="" class="fondo" />
+        <nav class="nav-main">
+          <ul class="nav-menu">
+            <li><a href="#mi-trabajo">INICIO</a></li>
+            <li><a href="#mi-trabajo2">ACTIVIDAD</a></li>
+          </ul>
+        </nav>
+        <div class="abajo">
+          <div class="links">
+            <a href="https://www.facebook.com/EdJhoelBarber" target =" "><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://instagram.com/jhoel_ed?igshid=YmMyMTA2M2Y=" target =" "><i class="fa-brands fa-instagram"></i></a>
+            <a href="edjoelherreravillalba@gmail.com" target=" "><i class="fa-solid fa-envelope" target =" "></i></a>
+            <a href="https://www.facebook.com/edjhoel.herreravillalba" target =" "><i class="fa-brands fa-facebook"></i></a>
+          </div>
+        </div>
+      </header>
+      <section class="mi-trabajo" id="mi-trabajo">
+        <div class="slider-container mostrar">
+          <button class="izquierda">
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+          <button class="derecha">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+          <ul class="slider">
+            <li><img src="./assets/corte1.jpg" alt="" class="visible" id="1" /></li>
+            <li><img src="./assets/corte2.jpg" alt="" id="2" /></li>
+            <li><img src="./assets/corte3.jpg" alt="" id="3" /></li>
+            <li><img src="./assets/Barberia.jpg" alt="" id="4" /></li>
+            <li>
+              <video controls muted id="5">
+                <source src="https://res.cloudinary.com/dkkohwnui/video/upload/v1660843114/video2_zjvpfq.mp4" type="video/mp4" />
+              </video>
+            </li>
+          </ul>
+        </div>
+        <div class="titulo-seccion">
+          <div class="para-margen">
+            <h3>Observa</h3>
+            <h3>mi</h3>
+            <h3>trabajo</h3>
+          </div>
+        </div>
+      </section>
+      <section class="mi-trabajo2" id="mi-trabajo2">
+        <div class="titulo-seccion2">
+          <div class="para-margen">
+            <h3>Mis</h3>
+            <h3>actividades</h3>
+          </div>
+        </div>
+        <div class="slider-container2 mostrar2">
+          <button class="izquierda2">
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+          <button class="derecha2">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+          <ul class="slider2">
+            <li><img src="./assets/actividad1.jpg" alt="" id="10" class="visible2"></li>
+            <li><img src="./assets/actividad2.jpg" alt="" id="11"></li>
+            <li><img src="./assets/actividad3.jpg" alt="" id="12"></li>
+            <li><img src="./assets/actividad4.jpg" alt="" id="13"></li>
+            <li><img src="./assets/actividad5.jpg" alt="" id="14"></li>
+            <li>
+              <video controls muted id="15">
+                <source src="https://res.cloudinary.com/dkkohwnui/video/upload/v1660842389/video1_nxzmkk.mp4" type="video/mp4" />
+              </video>
+            </li>
+            <li>
+              <video controls muted id="16">
+                <source src="https://res.cloudinary.com/dkkohwnui/video/upload/v1660843135/video3_napsvt.mp4" type="video/mp4" />
+              </video>
+            </li>
+            <li>
+              <video controls muted id="17">
+                <source src="https://res.cloudinary.com/dkkohwnui/video/upload/v1660843084/video4_jfih66.mp4" type="video/mp4" />
+              </video>
+            </li>
+            
+          </ul>
+        </div>
+      </section>
+    </div>
+    <div class="contenedor-flecha">
+      <a href="#inicio"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
