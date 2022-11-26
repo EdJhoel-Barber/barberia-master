@@ -13,7 +13,7 @@ document.querySelector('.derecha').addEventListener('click', ()=>{
         document.getElementById(i).currentTime = 0;
     }
     document.getElementById(i).classList.remove('visible');
-    if (i < 5) {
+    if (i < 6) {
         i++;
     } else {
         i = 1;
@@ -29,7 +29,7 @@ document.querySelector('.izquierda').addEventListener('click', ()=>{
     if (i > 1) {
         i--;
     } else {
-        i = 5;
+        i = 6;
     }
     document.getElementById(i).classList.add('visible');
 })
@@ -43,7 +43,7 @@ document.querySelector('.derecha2').addEventListener('click', ()=>{
         document.getElementById(j).currentTime = 0;
     }
     document.getElementById(j).classList.remove('visible2');
-    if (j < 17) {
+    if (j < 18) {
         j++;
     } else {
         j = 10;
@@ -59,7 +59,7 @@ document.querySelector('.izquierda2').addEventListener('click', ()=>{
     if (j > 10) {
         j--;
     } else {
-        j = 17;
+        j = 18;
     }
     document.getElementById(j).classList.add('visible2');
 })
